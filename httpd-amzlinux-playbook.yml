@@ -1,0 +1,6 @@
+---
+- hosts: server2
+  become: true
+  roles:
+    - httpd-amzlinux
+
